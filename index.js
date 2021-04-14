@@ -13,9 +13,12 @@ fetchButton.onclick = function () {
      var fieldNotEmpty = (url !== '');
 
      if (fieldNotEmpty) {
+          console.log('Fetching...');
           fetch(url)
                .then((response) => response.json())
                .then((user) => {
+                    console.log('Fetched');
+                    
                     var randomUser = JSON.parse(JSON.stringify(user[0]));
                     var first = 'FIRST NAME:  ' + randomUser.first + '<br><br>';
                     var last = 'LAST NAME:  ' + randomUser.last + '<br><br>';
