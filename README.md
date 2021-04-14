@@ -1,5 +1,6 @@
 # **FETCHING API**
 _Getting api json format on a random link and print it to the project._
+![alt text](https://i.imgur.com/VqiK5zi.png)
 
 **SOURCES**
 *    _https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment_
